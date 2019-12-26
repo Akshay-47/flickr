@@ -1,5 +1,7 @@
 $bg-color: #ecf0f1;
 $single-page-heading: #333333;
+$single-item-size: 400px;
+$movie-item-size: 300px;
 
 html {
   height: 100%;
@@ -12,8 +14,6 @@ html {
 
 header {
   text-align: center;
-  // font-family: "Sacramento", cursive;
-  // margin-bottom: 2rem;
   font-family: "Permanent Marker", cursive;
   h1 {
     padding: 0;
@@ -22,16 +22,12 @@ header {
   }
 }
 
-$single-item-size: 400px;
-$movie-item-size: 300px;
-.movies {
-  padding: 1em;
-}
 .movie-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 1em;
 
   .movie-item {
     position: relative;
