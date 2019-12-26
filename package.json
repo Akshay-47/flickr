@@ -14,7 +14,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,7 +42,6 @@
   },
   "devDependencies": {
     "node-sass": "^4.13.0",
-    "react-hot-loader": "^4.12.18",
-    "gh-pages": "^2.1.1"
+    "react-hot-loader": "^4.12.18"
   }
 }
